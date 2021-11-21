@@ -298,7 +298,8 @@ header{
 
 .section_pag_text p{
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
     
 }
 
@@ -311,6 +312,12 @@ header{
     margin-right: 2rem;
      float: left;
 }
+
+#h2_article{
+    padding-top: 3rem;
+}
+
+/*parte carrosel*/
 
 .carrousel{
     padding: 15rem;
@@ -479,12 +486,12 @@ header{
     }
 
     .sobrenos{
-        padding: 0rem 6rem 0rem 6rem;
+        padding: 2rem 3rem 2rem 3rem;
     }
 
-
-
-    
+    .sobrenos p{
+        padding-top: 2rem;
+    }
 
 }
 
