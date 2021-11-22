@@ -139,6 +139,8 @@ header{
     justify-content: center;
 }
 
+/*parte cards artigos*/
+
 .section2{
     padding:2%;
     background:#2E3E46;
@@ -158,13 +160,11 @@ header{
     margin: 0 auto;
     margin-top: 2rem;
     padding: 2rem;
-    
     border-radius: 5px;
 }
 
 .img_article{
-   
-    margin: 0 auto;
+    width: 30%;
 }
 .img_article img{
     height: 100%;
@@ -174,6 +174,7 @@ header{
 }
 
 .text_article{
+    width: 65%;
     margin-left: 2%;
     
     
@@ -288,7 +289,7 @@ header{
 }
 
 .section_pag_text h2{
-    font-weight: 300;
+    font-size: 2rem;
 }
 
 .section_pag_text h3{
@@ -299,7 +300,8 @@ header{
 .section_pag_text p{
     text-align: justify;
     font-size: 1.6rem;
-    line-height: 2.2rem;
+    line-height: 2.4rem;
+    text-indent: 3ch;
     
 }
 
@@ -456,6 +458,18 @@ header{
     .article{
         flex-direction: column;
         width: 80%;
+    }
+
+    .img_article{
+        width: 100%;
+    }
+
+    .text_article{
+        width: 100%;
+    }
+
+    .text_article h1{
+        padding-top: 2rem;
     }
 
     .img_article img{
